@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all 0.3s linear;
 }
 ul, ol {
     list-style-type: none;
@@ -38,6 +39,10 @@ a{
     letter-spacing: 0.5px;
     color: #F75e05;
     cursor: pointer;
+}
+.section_btn2:hover{
+    background-image: linear-gradient( to right,#FF3F3A,#F75E05);
+    color: #fff;
 }
 /*Header section style*/
 .header{
@@ -74,6 +79,9 @@ a{
     color: #424551;
 }
 /*Home section*/
+.home{
+    padding: 80px 0;
+}
 .home_wraper{
     display: flex;
     align-items: center;
@@ -90,4 +98,21 @@ a{
 }
 .home_btn2{
     margin-right: 16px;
+}
+/*STATS  section*/
+.stats_wraper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.stats_item{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.stats_circle{
+    background-color: #ff3f3a;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
 }
