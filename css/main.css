@@ -44,6 +44,18 @@ a{
     background-image: linear-gradient( to right,#FF3F3A,#F75E05);
     color: #fff;
 }
+.section_title{
+    font-size: 46px;
+    line-height: 130%;
+    font-weight: 900;
+    color: #1e212c;
+}
+.hero{
+    background-image: url(../images/hero.backgrnd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
 /*Header section style*/
 .header{
     padding: 24px 0;
@@ -94,12 +106,15 @@ a{
     line-height: 130%;
     color: #1e212c;
     letter-spacing: 1px;
-    margin: 24px;
+    margin: 40px 0 64px 0;
 }
 .home_btn2{
     margin-right: 16px;
 }
 /*STATS  section*/
+.stats{
+    padding: 112px 0;
+}
 .stats_wraper{
     display: flex;
     align-items: center;
@@ -115,4 +130,10 @@ a{
     width: 8px;
     height: 8px;
     border-radius: 4px;
+}
+.stats_description{
+    font-size: 16px;
+    line-height: 160%;
+    font-weight: 400;
+    color: #1e212c;
 }
