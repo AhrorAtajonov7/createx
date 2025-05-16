@@ -289,5 +289,15 @@ a{
     gap: 96px;
 }
 .benefits_botton-title{
-    
+    font-size: 32px;
+    line-height: 130%;
+    font-weight: 900;
+    color: #1e212c;
+    margin-bottom: 24px;
+}
+.benefits_botton-description{
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 400;
+    color: #424551;
 }
