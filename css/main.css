@@ -68,6 +68,9 @@ a{
     background-position: center;
     min-height: 1080px;
 }
+.medium{
+    background-color: rgba(244, 245, 246, 1);
+}
 /*Header section style*/
 .header{
     padding: 24px 0;
@@ -299,5 +302,147 @@ a{
     font-size: 16px;
     line-height: 100%;
     font-weight: 400;
+    color: #424551;
+}
+/*Events section style*/
+.events{
+    padding: 236px 0 128px 0;
+    background-image:url(../images/hero.backgrnd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.events_top{
+    text-align: center;
+}
+.events_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 5px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 32px;
+}
+.events_card:hover{
+    box-shadow: 0px 12px 10px -6px #f75e85;
+}
+.events_card-date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.events_card-datebox{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.events_card-content{
+    width: 712px;
+}
+.events_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+/*Events section ends*/
+/*Sertificat section starts*/
+.certificat{
+    background-color: #fff;
+}
+.certificat_wraper{
+    display: flex;
+    gap: 128px;
+}
+.certificat_title{
+    gap: 8px;
+}
+.sertificat_logo{
+    width: 105px;
+    height: 50px;
+}
+.certificat_text{
+    color: #424551;
+    margin-top: 30px;
+}
+.nav{
+    display: flex;
+    margin-top: 25px;
+    gap: 40px;
+}
+/*Sertificat section ends*/
+/*Team section starts*/
+.team_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.team_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.team_title{
+    margin-bottom: 20px;
+}
+.card_img{
+    width: 285px;
+    height: 340px;
+    border-radius: 4px;
+    background-color: rgba(255, 207, 45, 1);
+}
+.top_right{
+    width: 84px;
+    height: 48px;
+
+}
+.top_left-throw{
+    width: 24px;
+    height: 24px;
+}
+.top_right-throw{
+    width: 24px;
+    height: 24px;
+}
+.top_right-throw:hover{
+    background-color: rgba(255, 63, 58, 1);
+    transition: all 0.2s linear;
+    border-radius: 12px;
+}
+/* Clents section style*/
+.clents_top{
+    text-align: center;
+}
+.clents_people{
+    display: flex; 
+    align-items: center;
+    gap: 5px;
+}
+.clents_text{
+    margin-left: 30px;
+    color:#424551;
+    width: 752px;
+    height: 120px;
+}
+.clents_image{
+    width: 50px;
+    height: 50px;
+}
+.clents_course{
+    color: #787A80;
+}
+.clents_button{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.span{
+    margin-left: 600px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     color: #424551;
 }
